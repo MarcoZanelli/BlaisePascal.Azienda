@@ -3,9 +3,9 @@ namespace BlaisePascal.Azienda.Domain
 {
     public class Reparto
     {
-        string[] dipendenti = new string[10];
-        int[,] registroOre = new int[7, 10];
-        string[][] progetti = new string[10][];
+        string[] dipendenti;
+        int[,] registroOre;
+        string[][] progetti;
 
 
         private const int giorniSettimana = 7;
